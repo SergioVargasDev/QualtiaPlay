@@ -1,0 +1,453 @@
+.frameChild {
+  height: 49.2px;
+  width: 195px;
+  position: relative;
+  border-radius: 0 0 var(--br-3xs) var(--br-3xs);
+  background-color: var(--color-midnightblue-400);
+  display: none;
+}
+.qButton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #f1f45e, #e1921a);
+  border: 0 solid var(--color-moccasin);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+.aQuestionChild,
+.q,
+.q1 {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.aQuestionChild {
+  height: 11.2px;
+  width: 13px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #ffd25f, #f4ec31);
+  z-index: 4;
+}
+.q,
+.q1 {
+  font-weight: 900;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  margin-left: -8px;
+}
+.q {
+  background: linear-gradient(180deg, #595959, #ffe073);
+  min-width: 7px;
+  z-index: 5;
+}
+.q1 {
+  font-size: var(--font-size-4xs);
+  background: linear-gradient(180deg, #fff06a, #fff);
+  min-width: 6px;
+  z-index: 6;
+}
+.aQuestion {
+  position: absolute;
+  top: 1.7px;
+  left: 2px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+}
+.saveButton {
+  align-self: stretch;
+  height: 14.7px;
+  position: relative;
+}
+.cancelButton {
+  width: 17px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-6) 0 0;
+  box-sizing: border-box;
+}
+.emptySpace {
+  align-self: stretch;
+  position: relative;
+  font-weight: 900;
+  display: inline-block;
+  min-width: 28px;
+  z-index: 2;
+}
+.totalInfo {
+  width: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-8) 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-mini);
+}
+.frameItem {
+  width: 6.4px;
+  height: 6.8px;
+  position: relative;
+}
+.tokenstotalInner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs-3) 0 0;
+}
+.cANCELSave,
+.cANCELSave1 {
+  position: absolute;
+  top: 17.7px;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 2.8px;
+  height: 2.1px;
+  z-index: 1;
+}
+.cANCELSave1 {
+  top: 0;
+}
+.frameInner,
+.lineDiv {
+  height: 1px;
+  width: 91.2px;
+  position: absolute;
+  margin: 0 !important;
+  border-top: 1px solid var(--color-white);
+  box-sizing: border-box;
+}
+.frameInner {
+  top: -0.9px;
+  right: -79.6px;
+}
+.lineDiv {
+  right: -78.9px;
+  bottom: -0.5px;
+}
+.userInfo {
+  position: relative;
+  font-weight: 900;
+  display: inline-block;
+  min-width: 10px;
+  white-space: nowrap;
+}
+.div,
+.lineParent {
+  position: absolute;
+  left: 0;
+  display: flex;
+}
+.lineParent {
+  top: 0;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+}
+.div {
+  top: 0.9px;
+  font-size: var(--tienda-size);
+  line-height: 20px;
+  font-weight: 900;
+  color: var(--color-white);
+  align-items: center;
+  justify-content: center;
+  width: 10px;
+  height: 16.4px;
+  min-width: 10px;
+  z-index: 1;
+}
+.secondName {
+  position: absolute;
+  top: 2.1px;
+  left: 3.8px;
+  width: 9.2px;
+  height: 17.4px;
+}
+.quotaTickets {
+  height: 19.8px;
+  width: 13px;
+  position: relative;
+}
+.primaryColorChild {
+  position: absolute;
+  top: 6.3px;
+  left: 82.4px;
+  width: 6.4px;
+  height: 6.8px;
+  object-fit: contain;
+}
+.primaryColorInner,
+.primaryColorItem {
+  position: absolute;
+  top: 17.7px;
+  left: 74.6px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 2.8px;
+  height: 2.1px;
+  z-index: 1;
+}
+.primaryColorInner {
+  top: 0;
+  left: 75.3px;
+}
+.qualtiaTikets {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 81px;
+  height: 12.9px;
+  min-width: 81px;
+}
+.primaryColor {
+  height: 19.8px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
+.rectangleParent,
+.tokenstotal {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tokenstotal {
+  flex: 1;
+  border-radius: var(--br-xl);
+  background-color: var(--color-midnightblue-300);
+  padding: var(--padding-12xs-5) 0 var(--padding-12xs-4);
+  gap: var(--gap-10xs-8);
+  z-index: 2;
+  font-size: var(--font-size-base-5);
+  color: var(--color-black);
+}
+.rectangleParent {
+  width: 195px;
+  border-radius: 0 0 var(--br-3xs) var(--br-3xs);
+  background-color: var(--color-midnightblue-400);
+  padding: 15.5px var(--padding-8xs-6) var(--padding-smi) var(--padding-6xs);
+  box-sizing: border-box;
+  gap: var(--gap-smi-5);
+  z-index: 1;
+}
+.vectorIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.cancelButton1 {
+  position: absolute;
+  top: 369.1px;
+  left: 56.6px;
+  border-radius: var(--br-6xs);
+  border: 2px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  width: 265px;
+  height: 30.7px;
+  z-index: 1;
+}
+.vectorParent {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.cancel {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-montserrat);
+  color: var(--color-dimgray);
+  text-align: left;
+  display: inline-block;
+  min-width: 57px;
+  z-index: 1;
+}
+.emailField,
+.emailFieldChild {
+  border: 2px solid var(--color-midnightblue-200);
+  border-radius: var(--br-6xs);
+}
+.emailFieldChild {
+  height: 35px;
+  width: 90px;
+  position: relative;
+  box-sizing: border-box;
+  display: none;
+}
+.emailField {
+  cursor: pointer;
+  padding: var(--padding-3xs-6) var(--padding-smi) var(--padding-4xs-8)
+    var(--padding-base);
+  background-color: transparent;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 2;
+}
+.emailFieldItem {
+  height: 35px;
+  width: 90px;
+  position: relative;
+  border-radius: var(--br-6xs);
+  background-color: var(--color-midnightblue-200);
+  display: none;
+}
+.save {
+  position: relative;
+  font-size: var(--font-size-sm);
+  display: inline-block;
+  font-family: var(--font-montserrat);
+  color: var(--color-white);
+  text-align: left;
+  min-width: 38px;
+  z-index: 2;
+}
+.emailField1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs-6) var(--padding-7xl) var(--padding-4xs-8);
+  background-color: var(--color-midnightblue-200);
+  border-radius: var(--br-6xs);
+  justify-content: flex-start;
+  z-index: 1;
+}
+.emailField1:hover {
+  background-color: var(--color-darkslateblue-200);
+}
+.emailField1,
+.firstNameLabel,
+.lastNameLabel {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.lastNameLabel {
+  width: 200px;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.firstNameLabel {
+  align-self: stretch;
+  justify-content: flex-end;
+}
+.segundoNombre {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.roundedShape {
+  width: 645px;
+  height: 1.8px;
+  position: absolute;
+  margin: 0 !important;
+  top: 54.3px;
+  left: -382px;
+  background-color: var(--color-gainsboro-200);
+  z-index: 1;
+}
+.nameFields {
+  width: 263px;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  gap: var(--gap-33xl-5);
+}
+.frameParent,
+.nameFields,
+.saveButton1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.saveButton1 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-outfit);
+}
+.frameParent {
+  margin-top: -275px;
+  width: 1010.6px;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-10xs) var(--padding-138xl) var(--padding-337xl-5)
+    var(--padding-39xl-6);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-182xl-3);
+  max-width: calc(100% - 659px);
+  text-align: center;
+  font-size: var(--font-size-3xs-2);
+  color: var(--color-goldenrod);
+  font-family: var(--font-gothic-a1);
+}
+@media screen and (max-width: 1625px) {
+  .frameParent {
+    display: none;
+  }
+}
+@media screen and (max-width: 1275px) {
+  .frameParent {
+    gap: var(--gap-82xl);
+    padding-left: var(--padding-10xl);
+    padding-right: var(--padding-59xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .frameParent {
+    gap: var(--gap-31xl);
+    padding-top: var(--padding-xl);
+    padding-right: var(--padding-20xl);
+    padding-bottom: var(--padding-213xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .segundoNombre {
+    font-size: var(--tienda-size);
+  }
+  .nameFields {
+    gap: var(--gap-7xl);
+  }
+  .frameParent {
+    gap: var(--gap-6xl);
+  }
+}

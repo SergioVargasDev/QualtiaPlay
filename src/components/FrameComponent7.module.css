@@ -1,0 +1,332 @@
+.misiones,
+.misionesWrapper {
+  display: flex;
+  justify-content: center;
+}
+.misiones {
+  margin: 0;
+  width: 198px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 200;
+  font-family: inherit;
+  align-items: center;
+}
+.misionesWrapper {
+  width: 1540px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameChild,
+.mision1Child {
+  position: relative;
+  display: none;
+}
+.mision1Child {
+  align-self: stretch;
+  width: 412px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  max-width: 100%;
+}
+.frameChild {
+  width: 139px;
+  height: 159px;
+  border-radius: var(--br-3xs) 0 0 var(--br-3xs);
+  background-color: var(--color-gainsboro-300);
+}
+.frameItem {
+  border-radius: 50%;
+  background: linear-gradient(180deg, #e2b234, #e1921a);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 0 solid var(--color-moccasin);
+  box-sizing: border-box;
+  z-index: 3;
+}
+.frameInner,
+.frameItem,
+.q,
+.q1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.frameInner {
+  border-radius: 50%;
+  background: linear-gradient(180deg, #ffd25f, #e1921a);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 4;
+}
+.q,
+.q1 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 27px;
+}
+.q {
+  background: linear-gradient(180deg, #fff, #ffe073);
+  z-index: 5;
+}
+.q1 {
+  background: linear-gradient(180deg, #fff, #fcff7b);
+  z-index: 6;
+}
+.ellipseGroup,
+.qParent {
+  position: absolute;
+  left: 11px;
+}
+.qParent {
+  top: 6px;
+  width: 27px;
+  height: 44px;
+}
+.ellipseGroup {
+  width: calc(100% - 21px);
+  top: 11px;
+  right: 10px;
+  height: 51px;
+}
+.ellipseParent {
+  align-self: stretch;
+  height: 70px;
+  position: relative;
+}
+.div {
+  width: 42px;
+  position: relative;
+  font-weight: 900;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  min-width: 42px;
+  z-index: 2;
+}
+.rectangleParent,
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.wrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-sm);
+  font-size: var(--font-size-xl);
+}
+.rectangleParent {
+  width: 139px;
+  border-radius: var(--br-3xs) 0 0 var(--br-3xs);
+  background-color: var(--color-gainsboro-300);
+  flex-direction: column;
+  padding: var(--padding-20xl) var(--padding-15xl) var(--padding-smi)
+    var(--padding-16xl);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  min-width: 139px;
+  z-index: 1;
+}
+.mision1Item {
+  height: 70px;
+  width: 70px;
+  position: relative;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #e2b234, #e1921a);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 0 solid var(--color-white);
+  box-sizing: border-box;
+  display: none;
+  z-index: 4;
+}
+.compra10Salchichas,
+.elSalchichero {
+  position: relative;
+  font-weight: 200;
+  z-index: 1;
+}
+.elSalchichero {
+  align-self: stretch;
+}
+.compra10Salchichas {
+  width: 115px;
+  font-size: var(--font-size-xs);
+  display: inline-block;
+  min-width: 115px;
+}
+.elSalchicheroParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.frameChild1,
+.rectangleDiv {
+  height: 11px;
+  position: relative;
+  z-index: 1;
+}
+.rectangleDiv {
+  width: 58px;
+  border-radius: var(--br-3xs) 0 0 var(--br-3xs);
+  background-color: var(--color-lime);
+}
+.frameChild1 {
+  flex: 1;
+  border-radius: 0 var(--br-3xs) var(--br-3xs) 0;
+  background-color: var(--color-dimgray-100);
+}
+.rectangleGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer,
+.mision1Inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frameContainer {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-35xl);
+}
+.mision1Inner {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-xl);
+  box-sizing: border-box;
+  min-width: 145px;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.mision1,
+.mision1Wrapper,
+.mision2Wrapper {
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.mision1 {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0 var(--padding-5xl) 0 0;
+  gap: var(--gap-10xl);
+  max-width: 100%;
+}
+.mision1Wrapper,
+.mision2Wrapper {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.mision1Wrapper {
+  width: 429px;
+  display: flex;
+  padding: var(--padding-7xs) var(--padding-sm) 0 0;
+  max-width: 100%;
+}
+.mision2Wrapper {
+  width: 415px;
+  padding: var(--padding-11xs) 0 0;
+}
+.frameGroup,
+.frameParent,
+.mision2Wrapper {
+  display: flex;
+  max-width: 100%;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-11xl);
+  color: var(--color-goldenrod);
+}
+.frameParent {
+  width: 1555px;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-55xl);
+}
+.misionesInner {
+  width: 1905px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  color: var(--color-black);
+  font-family: var(--font-gothic-a1);
+}
+@media screen and (max-width: 1625px) {
+  .frameGroup {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 900px) {
+  .misiones {
+    font-size: var(--font-size-21xl);
+  }
+  .q,
+  .q1 {
+    font-size: var(--font-size-5xl);
+  }
+  .frameParent {
+    gap: var(--gap-18xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .misiones {
+    font-size: var(--font-size-11xl);
+  }
+  .q,
+  .q1 {
+    font-size: var(--font-size-lg);
+  }
+  .div {
+    font-size: var(--tienda-size);
+  }
+  .rectangleParent {
+    flex: 1;
+  }
+  .elSalchichero {
+    font-size: var(--tienda-size);
+  }
+  .mision1 {
+    flex-wrap: wrap;
+    padding-left: var(--padding-xl);
+    padding-top: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .frameParent {
+    gap: var(--gap-lg);
+  }
+}

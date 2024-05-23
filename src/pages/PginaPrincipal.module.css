@@ -1,0 +1,303 @@
+.bgIcon,
+.frameChild {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.frameChild {
+  margin-top: -1116px;
+  width: 1039px;
+  height: 929px;
+  border-radius: 50%;
+  background-color: var(--color-blue-200);
+  filter: blur(834px);
+}
+.bgIcon {
+  width: 846.8px;
+  max-height: 100%;
+}
+.circleElement,
+.ellipseParent {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.circleElement {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-76xl-2) 0 0;
+}
+.ellipseParent {
+  height: 1080px;
+  width: 712px;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-503xl) 0 var(--padding-538xl) 0;
+  gap: var(--gap-168xl);
+}
+.userIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.usuario {
+  width: 67px;
+  position: relative;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 67px;
+}
+.username {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi-5) var(--padding-xs);
+  gap: 9px;
+}
+.lockIcon {
+  height: 21.1px;
+  width: 19.4px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 21px;
+}
+.contrasea {
+  width: 100px;
+  position: relative;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 100px;
+}
+.groupIcon,
+.image41Icon {
+  position: absolute;
+  top: 461px;
+  left: 274.8px;
+  width: 115.9px;
+  height: 103.2px;
+}
+.image41Icon {
+  top: 196px;
+  left: 26px;
+  width: 568px;
+  height: 204px;
+  object-fit: cover;
+}
+.vectorIcon {
+  position: absolute;
+  top: -4px;
+  left: 0;
+  width: 1010.6px;
+  height: 719.5px;
+  z-index: 1;
+}
+.groupParent {
+  height: 715.5px;
+  width: 1000px;
+  position: absolute;
+  margin: 0 !important;
+  top: -678px;
+  right: -465px;
+}
+.password {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 11.9px var(--padding-smi) var(--padding-xs);
+  position: relative;
+  gap: 8px;
+}
+.iniciarSesin,
+.iniciarSesin1 {
+  width: 131px;
+  position: relative;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+}
+.iniciarSesin1 {
+  color: var(--color-white);
+  z-index: 1;
+  margin-left: -131px;
+}
+.loginBtn {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-midnightblue-100);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-smi) var(--padding-xl) var(--padding-xs)
+    var(--padding-2xl);
+  cursor: pointer;
+}
+.registrarse,
+.registrarse1 {
+  width: 131px;
+  position: relative;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.registrarse1 {
+  color: var(--color-white);
+  z-index: 1;
+  margin-left: -131px;
+}
+.registerBtn {
+  flex: 1;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-midnightblue-100);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-smi) var(--padding-xl) var(--padding-xs)
+    var(--padding-2xl);
+  cursor: pointer;
+}
+.activateSignIn,
+.forgotPasswordLink,
+.usernameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.forgotPasswordLink {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-12xs);
+  color: #2148c0;
+}
+.activateSignIn,
+.usernameParent {
+  flex-direction: column;
+}
+.activateSignIn {
+  align-self: stretch;
+  gap: var(--gap-xs);
+  font-size: var(--tienda-size);
+  color: var(--color-midnightblue-100);
+}
+.usernameParent {
+  flex: 1;
+  gap: 20.5px;
+}
+.registrationPanelInner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-smi) 0 0;
+}
+.olvidasteLaContrasea {
+  width: 226px;
+  position: relative;
+  font-size: var(--tienda-size);
+  font-weight: 500;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-left: var(--padding-xl);
+}
+.registrationPanel {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-xs);
+}
+.loginPanel,
+.pginaPrincipal,
+.registrationPanel {
+  display: flex;
+  justify-content: flex-start;
+}
+.loginPanel {
+  height: 467px;
+  width: 314px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.pginaPrincipal {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-300);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 443px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1400px) {
+  .ellipseParent {
+    padding-top: var(--padding-201xl);
+    padding-bottom: var(--padding-216xl);
+    box-sizing: border-box;
+  }
+  .pginaPrincipal {
+    flex-wrap: wrap;
+    gap: 221px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .circleElement {
+    padding-right: var(--padding-28xl);
+    box-sizing: border-box;
+  }
+  .ellipseParent {
+    gap: var(--gap-74xl);
+  }
+}
+@media screen and (max-width: 825px) {
+  .circleElement {
+    padding-right: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+  .ellipseParent {
+    gap: var(--gap-28xl);
+    padding-top: var(--padding-124xl);
+    padding-bottom: var(--padding-134xl);
+    box-sizing: border-box;
+  }
+  .pginaPrincipal {
+    gap: 111px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ellipseParent {
+    gap: var(--gap-4xl);
+  }
+  .pginaPrincipal {
+    gap: 55px;
+  }
+}

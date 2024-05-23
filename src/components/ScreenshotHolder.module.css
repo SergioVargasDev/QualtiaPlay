@@ -1,0 +1,155 @@
+.screenshotHolderChild {
+  width: 408.2px;
+  position: relative;
+  border-radius: var(--br-2xl);
+  max-height: 100%;
+  display: none;
+  max-width: 100%;
+}
+.flappyCart {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 280.1px;
+  height: 71.7px;
+  z-index: 2;
+}
+.screenshot202403030316371 {
+  position: absolute;
+  width: calc(100% - 12.6px);
+  top: 59.6px;
+  right: 6.8px;
+  left: 5.8px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 399.7px;
+  object-fit: cover;
+  z-index: 3;
+}
+.ticketPrompt {
+  height: 459.3px;
+  flex: 1;
+  position: relative;
+}
+.ticketPlayer,
+.useUnTiket {
+  align-self: stretch;
+  display: flex;
+}
+.ticketPlayer {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-30xl);
+}
+.useUnTiket {
+  height: 71.7px;
+  position: relative;
+  letter-spacing: 0.08em;
+  text-transform: capitalize;
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  mix-blend-mode: normal;
+  z-index: 2;
+}
+.gameInterfaceChild {
+  height: 34.5px;
+  width: 174.2px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--color-orange);
+  display: none;
+}
+.jugar {
+  flex: 1;
+  position: relative;
+  font-weight: 900;
+  z-index: 3;
+}
+.gameInterface,
+.playInvitation {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.gameInterface {
+  width: 177.2px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-orange);
+  justify-content: flex-start;
+  padding: var(--padding-5xs-5) 0 var(--padding-5xs-4) var(--padding-11xs);
+  box-sizing: border-box;
+  z-index: 2;
+}
+.playInvitation {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+  font-size: var(--font-size-base-5);
+  color: var(--color-white);
+  font-family: var(--font-gothic-a1);
+}
+.screenshotHolder,
+.wheelSpin {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.wheelSpin {
+  align-self: stretch;
+  gap: var(--gap-base-9);
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-outfit);
+}
+.screenshotHolder {
+  width: 408.2px;
+  border-radius: var(--br-2xl);
+  background-color: var(--color-white);
+  box-shadow: 10px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: var(--padding-5xs-5) var(--padding-mini-5) var(--padding-39xl-7)
+    15.5px;
+  box-sizing: border-box;
+  gap: var(--gap-16xl-4);
+  max-width: 100%;
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-16xl);
+  color: var(--color-gray-200);
+  font-family: var(--tienda);
+}
+@media screen and (max-width: 925px) {
+  .flappyCart {
+    font-size: var(--font-size-9xl);
+  }
+  .screenshotHolder {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .flappyCart {
+    font-size: var(--font-size-2xl);
+  }
+  .ticketPlayer {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .useUnTiket {
+    font-size: var(--font-size-xl);
+  }
+  .screenshotHolder {
+    gap: var(--gap-lg);
+  }
+}

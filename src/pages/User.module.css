@@ -1,0 +1,359 @@
+.pginaPrincipalChild {
+  height: 50.9px;
+  width: 199px;
+  position: relative;
+  border-radius: 0 0 var(--br-3xs) var(--br-3xs);
+  background-color: var(--color-black);
+  display: none;
+  z-index: 0;
+}
+.pginaPrincipalInner,
+.pginaPrincipalItem {
+  position: absolute;
+  margin: 0 !important;
+  box-sizing: border-box;
+}
+.pginaPrincipalItem {
+  height: 13.8px;
+  width: 16px;
+  top: 19px;
+  right: 329px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #f1f45e, #c6d1bd);
+  border: 0 solid var(--color-white);
+  z-index: 2;
+}
+.pginaPrincipalInner {
+  height: 87.6px;
+  width: 645px;
+  bottom: 207.3px;
+  left: 586px;
+  border-radius: var(--br-6xs);
+  border: 2px solid var(--color-gainsboro-200);
+  z-index: 1;
+}
+.image38Icon {
+  position: absolute;
+  top: 0;
+  left: 34px;
+  width: 435px;
+  height: 307px;
+  object-fit: cover;
+}
+.profilePicture {
+  position: absolute;
+  top: 54.9px;
+  left: -146px;
+  border-radius: 50%;
+  background-color: var(--color-blue-100);
+  filter: blur(790px);
+  width: 467px;
+  height: 356.4px;
+  z-index: 1;
+}
+.emailField {
+  height: 411.3px;
+  width: 469px;
+  position: absolute;
+  margin: 0 !important;
+  top: -307px;
+  left: -131px;
+}
+.perfilDeUsuario {
+  margin: 0;
+  height: 30.7px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+.firstNameLabel,
+.lastNameLabel {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.lastNameLabel {
+  position: relative;
+}
+.firstNameLabel {
+  padding: 0 71px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: multiply;
+}
+.span {
+  font-size: 36px;
+}
+.p {
+  font-size: var(--font-size-21xl);
+}
+.blankLine,
+.p,
+.tokensWon1 {
+  margin: 0;
+}
+.tokensWonTxtContainer {
+  width: 100%;
+}
+.tokensWon {
+  position: absolute;
+  top: 92.6px;
+  left: 117px;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 175px;
+  height: 102.5px;
+  z-index: 1;
+}
+.vectorParent {
+  align-self: stretch;
+  height: 287.2px;
+  position: relative;
+  color: var(--color-white);
+}
+.firstNameLabelParent,
+.frameDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.firstNameLabelParent {
+  align-self: stretch;
+  gap: 16.7px;
+  max-width: 100%;
+}
+.frameDiv {
+  width: 409px;
+  padding: 171px 0 0;
+  box-sizing: border-box;
+  max-width: calc(100% - 1261px);
+}
+.frameItem,
+.rectangleDiv {
+  width: 645px;
+  position: absolute;
+  margin: 0 !important;
+  z-index: 1;
+}
+.rectangleDiv {
+  height: 1.8px;
+  bottom: 329.9px;
+  left: 586px;
+  background-color: var(--color-gainsboro-200);
+}
+.frameItem {
+  border: 2px solid var(--color-gainsboro-200);
+  outline: 0;
+  background-color: transparent;
+  height: 30.7px;
+  right: -436.6px;
+  bottom: 84.6px;
+  border-radius: var(--br-6xs);
+  box-sizing: border-box;
+}
+.informacinBsica,
+.primerNombre {
+  position: relative;
+  font-weight: 600;
+}
+.descriptionField {
+  border: 2px solid var(--color-gainsboro-200);
+  outline: 0;
+  background-color: transparent;
+  height: 30.7px;
+  width: 360px;
+  position: absolute;
+  margin: 0 !important;
+  right: -209px;
+  bottom: -19.8px;
+  border-radius: var(--br-6xs);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.apodoInputField {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs) var(--padding-sm);
+  position: relative;
+}
+.aboutMeLabelChild {
+  border: 2px solid var(--color-gainsboro-200);
+  outline: 0;
+  background-color: transparent;
+  height: 30.7px;
+  width: 645px;
+  position: absolute;
+  margin: 0 !important;
+  right: -581px;
+  bottom: -17.1px;
+  border-radius: var(--br-6xs);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.apodo {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 61px;
+}
+.aboutMeLabel,
+.apodoWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.apodoWrapper {
+  padding: 0 0 var(--padding-lgi) var(--padding-8xs);
+}
+.aboutMeLabel {
+  position: relative;
+}
+.email {
+  position: relative;
+  line-height: 21.9px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 60px;
+}
+.informacinBsicaParent,
+.profilePictureContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.profilePictureContainer {
+  flex-direction: row;
+  padding: 0 var(--padding-7xs);
+}
+.informacinBsicaParent {
+  flex-direction: column;
+  gap: 41px;
+}
+.sobreM {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 80px;
+}
+.informationField,
+.userInfoHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.userInfoHeader {
+  flex-direction: row;
+  padding: 0 var(--padding-11xs);
+}
+.informationField {
+  flex-direction: column;
+  padding: 0 35.4px 0 0;
+  gap: 96.1px;
+}
+.rectangleParent {
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-xl);
+}
+.pginaPrincipal,
+.rectangleParent,
+.user {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+}
+.pginaPrincipal {
+  align-self: stretch;
+  height: 985px;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 272px 0 207.4px 60px;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-9xl);
+  color: var(--color-black);
+  font-family: var(--font-outfit);
+}
+.user {
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1625px) {
+  .frameDiv {
+    max-width: 100%;
+  }
+  .rectangleParent {
+    display: none;
+  }
+}
+@media screen and (max-width: 1275px) {
+  .frameDiv {
+    display: none;
+  }
+  .pginaPrincipal {
+    padding-left: var(--padding-11xl);
+    padding-top: 177px;
+    padding-bottom: 135px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .frameDiv,
+  .pginaPrincipal {
+    padding-top: 111px;
+    box-sizing: border-box;
+  }
+  .pginaPrincipal {
+    padding-top: 115px;
+    padding-bottom: 88px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .perfilDeUsuario {
+    font-size: var(--font-size-3xl);
+  }
+  .firstNameLabel {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .tokensWon {
+    font-size: var(--font-size-3xl);
+  }
+  .apodo,
+  .email,
+  .informacinBsica,
+  .primerNombre,
+  .sobreM {
+    font-size: var(--tienda-size);
+  }
+}

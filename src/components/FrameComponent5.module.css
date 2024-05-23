@@ -1,0 +1,189 @@
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-2xl);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.image40Icon {
+  width: 321.4px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  max-height: 100%;
+  object-fit: cover;
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.wrapperRectangle39,
+.wrapperRectangle39Child {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 4;
+}
+.wrapperRectangle39Child {
+  object-fit: contain;
+  left: 7px;
+  top: 4px;
+  transform: scale(1.044);
+}
+.wrapperRectangle39 {
+  margin: 0 !important;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-2xl);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.p,
+.tiempoRestante {
+  margin: 0;
+}
+.tiempoRestante235959Container {
+  height: 71.7px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  z-index: 5;
+}
+.image40Parent {
+  position: absolute;
+  top: 67px;
+  left: 42.9px;
+  border-radius: var(--br-3xs);
+  width: 321.9px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xl) var(--padding-311xl);
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+  z-index: 2;
+}
+.backgroundColorChild,
+.backgroundColorItem {
+  position: absolute;
+  top: 0;
+  border-radius: 50%;
+  width: 19.2px;
+  height: 18.6px;
+  z-index: 2;
+}
+.backgroundColorChild {
+  left: 0;
+  background-color: var(--color-gray-100);
+  cursor: pointer;
+}
+.backgroundColorItem {
+  left: 25px;
+  background-color: var(--color-goldenrod);
+}
+.backgroundColor {
+  position: absolute;
+  top: 638.3px;
+  left: 181.1px;
+  width: 44.2px;
+  height: 18.6px;
+}
+.ruletaDiaria,
+.useSuOportunidad {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 71.7px;
+}
+.useSuOportunidad {
+  top: 492.9px;
+  left: 16.5px;
+  font-size: var(--font-size-6xl);
+  letter-spacing: 0.08em;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: var(--font-outfit);
+  width: 378.2px;
+  mix-blend-mode: normal;
+  z-index: 2;
+}
+.ruletaDiaria {
+  margin: 0;
+  top: 7px;
+  left: 64.9px;
+  font-size: var(--font-size-16xl);
+  font-weight: 400;
+  font-family: inherit;
+  width: 280.1px;
+  z-index: 3;
+}
+.redeemCodeChild {
+  height: 34.5px;
+  width: 174.2px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--color-orange);
+  display: none;
+}
+.jugar {
+  flex: 1;
+  position: relative;
+  font-weight: 900;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.redeemCode {
+  position: absolute;
+  top: 589.8px;
+  left: 116.6px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-orange);
+  width: 177.1px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs-5) 0 var(--padding-5xs-4) var(--padding-11xs-9);
+  box-sizing: border-box;
+  z-index: 2;
+  font-size: var(--font-size-base-5);
+  color: var(--color-white);
+  font-family: var(--font-gothic-a1);
+}
+.vectorParent {
+  align-self: stretch;
+  height: 683px;
+  position: relative;
+  border-radius: var(--br-2xl);
+  background-color: var(--color-white);
+  box-shadow: 10px 4px 4px rgba(0, 0, 0, 0.25);
+  max-width: 100%;
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-200);
+  font-family: var(--tienda);
+}
+@media screen and (max-width: 900px) {
+  .ruletaDiaria {
+    font-size: var(--font-size-9xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .tiempoRestante235959Container {
+    font-size: var(--tienda-size);
+  }
+  .useSuOportunidad {
+    font-size: var(--font-size-xl);
+  }
+  .ruletaDiaria {
+    font-size: var(--font-size-2xl);
+  }
+}

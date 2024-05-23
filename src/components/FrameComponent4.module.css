@@ -1,0 +1,164 @@
+.email,
+.userIcon {
+  position: relative;
+  flex-shrink: 0;
+}
+.userIcon {
+  height: 22.1px;
+  width: 20.7px;
+  overflow: hidden;
+  min-height: 22px;
+}
+.email {
+  width: 46.6px;
+  line-height: 22.1px;
+  text-transform: uppercase;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 46.6px;
+}
+.username,
+.usernameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.username {
+  flex: 1;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--color-white);
+  padding: var(--padding-sm-8) var(--padding-smi-5) var(--padding-sm-9);
+  gap: var(--gap-2xs);
+}
+.usernameWrapper {
+  align-self: stretch;
+  padding: 0 var(--padding-11xs) 0 var(--padding-12xs);
+}
+.contrasea,
+.lockIcon {
+  position: relative;
+  flex-shrink: 0;
+}
+.lockIcon {
+  height: 23.3px;
+  width: 20.7px;
+  overflow: hidden;
+  min-height: 23px;
+}
+.contrasea {
+  width: 103.6px;
+  line-height: 22.1px;
+  text-transform: uppercase;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 103.6px;
+}
+.password,
+.passwordWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.password {
+  flex: 1;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--color-white);
+  padding: var(--padding-sm-2) var(--padding-smi-5) var(--padding-sm-3);
+  gap: var(--gap-2xs);
+}
+.passwordWrapper {
+  align-self: stretch;
+  padding: 0 var(--padding-11xs) 0 var(--padding-12xs);
+}
+.lockIcon1 {
+  height: 23.3px;
+  width: 20.7px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 23px;
+}
+.reingresarLaContrasea {
+  width: 227px;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 22.1px;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-family: var(--font-montserrat);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.password1 {
+  cursor: pointer;
+  border: 1px solid var(--color-white);
+  padding: var(--padding-sm-3) var(--padding-smi-4) var(--padding-sm-2);
+  background-color: transparent;
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi-1);
+  white-space: nowrap;
+}
+.password1:hover {
+  background-color: var(--color-gainsboro-400);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+}
+.crearCuenta {
+  width: 136.8px;
+  position: relative;
+  font-size: var(--tienda-size);
+  line-height: 22.1px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.loginBtn {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm-9) var(--padding-xl) var(--padding-sm-8)
+    var(--padding-9xl);
+  background-color: var(--color-midnightblue-100);
+  flex: 1;
+  border-radius: var(--br-9xs);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  white-space: nowrap;
+}
+.loginBtn:hover {
+  background-color: var(--color-darkslateblue-100);
+}
+.frameParent,
+.loginBtnWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.loginBtnWrapper {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-9xs-1);
+}
+.frameParent {
+  flex-direction: column;
+  gap: var(--gap-lg-8);
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}

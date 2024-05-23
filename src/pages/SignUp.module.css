@@ -1,0 +1,153 @@
+.bgIcon,
+.frameChild {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.frameChild {
+  margin-top: -1116px;
+  width: 1039px;
+  height: 929px;
+  border-radius: 50%;
+  background-color: var(--color-blue-200);
+  filter: blur(834px);
+}
+.bgIcon {
+  width: 846.8px;
+  max-height: 100%;
+}
+.bgWrapper,
+.ellipseParent {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.bgWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-76xl-2) 0 0;
+}
+.ellipseParent {
+  height: 1080px;
+  width: 712px;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-503xl) 0 var(--padding-538xl) 0;
+  gap: var(--gap-168xl);
+  min-width: 712px;
+}
+.groupIcon {
+  height: 114.2px;
+  width: 123.8px;
+  position: relative;
+}
+.form,
+.groupWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.groupWrapper {
+  width: 287.6px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.form {
+  position: absolute;
+  top: 461px;
+  left: 235px;
+  width: 314px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 47.3px;
+  cursor: pointer;
+}
+.image41Icon {
+  position: absolute;
+  top: 196px;
+  left: 26px;
+  width: 568px;
+  height: 204px;
+  object-fit: cover;
+}
+.vectorIcon {
+  position: absolute;
+  top: -4px;
+  left: 0;
+  width: 1010.6px;
+  height: 719.5px;
+  z-index: 1;
+}
+.image41Parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1000px;
+  height: 715.5px;
+}
+.formParent {
+  height: 878px;
+  width: 1000px;
+  position: relative;
+  min-width: 1000px;
+  max-width: 100%;
+}
+.signup {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-300);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  line-height: normal;
+  letter-spacing: normal;
+  gap: var(--gap-xl);
+}
+@media screen and (max-width: 1725px) {
+  .ellipseParent,
+  .formParent {
+    flex: 1;
+  }
+  .signup {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1325px) {
+  .bgWrapper {
+    padding-right: var(--padding-28xl);
+    box-sizing: border-box;
+  }
+  .ellipseParent {
+    gap: var(--gap-74xl);
+    padding-top: var(--padding-201xl);
+    padding-bottom: var(--padding-216xl);
+    box-sizing: border-box;
+  }
+  .formParent {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .bgWrapper {
+    padding-right: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+  .ellipseParent {
+    gap: var(--gap-28xl);
+    padding-top: var(--padding-124xl);
+    padding-bottom: var(--padding-134xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ellipseParent {
+    gap: var(--gap-4xl);
+  }
+}

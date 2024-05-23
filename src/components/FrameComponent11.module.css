@@ -1,0 +1,84 @@
+.azulIcon {
+  height: 677px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+.frameChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-white);
+  cursor: pointer;
+  z-index: 2;
+}
+.pngtreeChatbotLineIconVect {
+  height: 55.2px;
+  width: 63.8px;
+  position: relative;
+  object-fit: cover;
+  z-index: 3;
+}
+.chatBot {
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: 8px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: var(--font-outfit);
+  color: var(--color-black);
+  text-align: center;
+  white-space: nowrap;
+  z-index: 3;
+}
+.chatbotContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-mid-3);
+}
+.azulParent,
+.rectangleParent {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi-5) var(--padding-6xl) var(--padding-smi-1)
+    var(--padding-6xl-3);
+  background-color: transparent;
+  margin: 0 !important;
+  right: 315px;
+  bottom: 55.9px;
+  align-items: flex-end;
+  gap: var(--gap-8xs-5);
+}
+.azulParent {
+  top: 0;
+  left: 0;
+  width: 100%;
+  align-items: flex-start;
+  max-width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 450px) {
+  .chatBot {
+    font-size: var(--tienda-size);
+    line-height: 16px;
+  }
+  .rectangleParent {
+    flex-wrap: wrap;
+  }
+}

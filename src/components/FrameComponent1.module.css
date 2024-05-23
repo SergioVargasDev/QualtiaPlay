@@ -1,0 +1,168 @@
+.rouletteButtonChild {
+  width: 408.2px;
+  position: relative;
+  border-radius: var(--br-2xl);
+  max-height: 100%;
+  display: none;
+  max-width: 100%;
+}
+.image40Icon {
+  position: absolute;
+  top: 60.1px;
+  left: 0;
+  border-radius: var(--br-3xs);
+  width: 321.4px;
+  height: 401.6px;
+  object-fit: cover;
+  z-index: 2;
+}
+.ruleta {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 22.5px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 280.1px;
+  height: 71.7px;
+  z-index: 3;
+}
+.image40Parent {
+  height: 461.7px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.rouletteButtonInner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xl) 0 var(--padding-7xl-9);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.useUnTiket {
+  align-self: stretch;
+  height: 71.7px;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  letter-spacing: 0.08em;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: var(--font-outfit);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  mix-blend-mode: normal;
+  z-index: 2;
+}
+.frameChild {
+  height: 34.5px;
+  width: 174.2px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--color-orange);
+  display: none;
+}
+.jugar {
+  flex: 1;
+  position: relative;
+  font-weight: 900;
+  z-index: 3;
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: var(--br-mini);
+  background-color: var(--color-orange);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs-5) 0 var(--padding-5xs-4) var(--padding-11xs-9);
+  z-index: 2;
+}
+.frameInner,
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-goldenrod);
+  width: 19.2px;
+  height: 18.6px;
+  z-index: 2;
+}
+.frameInner {
+  left: 25px;
+  background-color: var(--color-gray-100);
+  cursor: pointer;
+}
+.ellipseParent {
+  height: 18.6px;
+  width: 44.2px;
+  position: relative;
+}
+.resultContainer,
+.ticketInfo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ticketInfo {
+  flex-direction: row;
+  padding: 0 var(--padding-50xl) 0 var(--padding-45xl-5);
+}
+.resultContainer {
+  width: 177.1px;
+  flex-direction: column;
+  gap: var(--gap-sm);
+}
+.playAgainButton,
+.rouletteButton {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+  font-size: var(--font-size-base-5);
+  color: var(--color-white);
+  font-family: var(--font-gothic-a1);
+}
+.rouletteButton {
+  border-radius: var(--br-2xl);
+  background-color: var(--color-white);
+  box-shadow: 10px 4px 4px rgba(0, 0, 0, 0.25);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-smi) var(--padding-7xl-1)
+    var(--padding-base-5);
+  box-sizing: border-box;
+  gap: var(--gap-5xl-7);
+  max-width: 100%;
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-16xl);
+  color: var(--color-gray-200);
+  font-family: var(--tienda);
+}
+@media screen and (max-width: 925px) {
+  .ruleta {
+    font-size: var(--font-size-9xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .ruleta {
+    font-size: var(--font-size-2xl);
+  }
+  .useUnTiket {
+    font-size: var(--font-size-xl);
+  }
+}

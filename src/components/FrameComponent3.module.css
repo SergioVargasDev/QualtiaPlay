@@ -1,0 +1,86 @@
+.negocios,
+.nosotros {
+  position: relative;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 95px;
+}
+.avisosDePrivacidad,
+.contacto,
+.nuestraGente,
+.portalInteractivo {
+  position: relative;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.nuestraGente {
+  height: 25px;
+  white-space: nowrap;
+}
+.avisosDePrivacidad,
+.contacto,
+.portalInteractivo {
+  text-align: center;
+  justify-content: center;
+}
+.contacto {
+  width: 97px;
+  min-width: 97px;
+}
+.avisosDePrivacidad,
+.portalInteractivo {
+  height: 25px;
+  white-space: nowrap;
+}
+.avisosDePrivacidad {
+  flex: 1;
+}
+.portalInteractivo {
+  width: 188px;
+  color: var(--color-goldenrod);
+  cursor: pointer;
+}
+.frameParent,
+.navbarInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameParent {
+  width: 993px;
+  flex-direction: row;
+  padding: 0 var(--padding-11xs) 0 0;
+  gap: var(--gap-8xl-6);
+}
+.navbarInner {
+  width: 100%;
+  flex-direction: column;
+  padding: var(--padding-xs) 0 0;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslateblue-300);
+  font-family: var(--font-outfit);
+}
+
+.screenshot20240303At304{
+    cursor: pointer;
+    height: 57px;
+    width: 145px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1825px) {
+  .frameParent {
+    display: none;
+  }
+  .navbarInner {
+    width: 381px;
+  }
+}

@@ -1,0 +1,134 @@
+.canjeaCodigo,
+.redeemCode {
+  display: flex;
+  justify-content: center;
+}
+.canjeaCodigo {
+  height: 32px;
+  width: 182px;
+  position: relative;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.redeemCode {
+  width: 384px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameChild,
+.frameItem,
+.inputField {
+  border-radius: var(--br-3xs) 0 0 var(--br-3xs);
+}
+.inputField {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--color-white);
+  height: 29px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+  font-family: var(--font-outfit);
+  font-weight: 100;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  min-width: 181px;
+  z-index: 3;
+}
+.frameChild,
+.frameItem {
+  position: absolute;
+  background-color: var(--color-orange);
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.frameChild {
+  height: 100%;
+  width: 100%;
+  top: 29px;
+  right: -131px;
+  bottom: -29px;
+  left: 131px;
+  z-index: 2;
+}
+.frameItem {
+  height: calc(100% - 2px);
+  width: calc(100% - 2px);
+  top: 28px;
+  right: -127px;
+  bottom: -26px;
+  left: 129px;
+  z-index: 4;
+}
+.rectangleParent {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.canjeArea,
+.canjear {
+  display: flex;
+  position: relative;
+}
+.canjear {
+  width: 62px;
+  align-items: center;
+  justify-content: center;
+  min-width: 62px;
+  z-index: 5;
+}
+.canjeArea {
+  width: 131px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-14xl);
+  box-sizing: border-box;
+}
+.scanCodeArea,
+.useMessage {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.useMessage {
+  flex-direction: row;
+  justify-content: center;
+  row-gap: 20px;
+  font-size: var(--tienda-size);
+  font-family: var(--tienda);
+}
+.scanCodeArea {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-outfit);
+}
+@media screen and (max-width: 450px) {
+  .canjeaCodigo {
+    font-size: var(--tienda-size);
+  }
+  .useMessage {
+    flex-wrap: wrap;
+  }
+}
