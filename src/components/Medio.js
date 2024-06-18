@@ -24,6 +24,7 @@ const Medio = () => {
   const onRectangle4Click = useCallback(() => {
     navigate("/games");
   }, [navigate]);
+  
 
   // Función para determinar la ruta actual
   const getCurrentPage = () => {
