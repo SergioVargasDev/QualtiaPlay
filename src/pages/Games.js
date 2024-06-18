@@ -1,4 +1,4 @@
-import NavBar from "../components/NavBar3";
+import NavBar from "../components/NavBar";
 import Medio from "../components/Medio";
 
 import FrameComponent2 from "../components/FrameComponent2";

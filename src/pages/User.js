@@ -1,11 +1,11 @@
-import NavBar2 from "../components/NavBar2";
+import NavBar from "../components/NavBar";
 import FrameComponent6 from "../components/FrameComponent6";
 import styles from "./User.module.css";
 
 const User1 = () => {
   return (
     <div className={styles.user}>
-      <NavBar2 />
+      <NavBar />
       <main className={styles.pginaPrincipal}>
         <div className={styles.pginaPrincipalChild} />
         <div className={styles.pginaPrincipalItem} />

@@ -231,6 +231,7 @@
   left: 0;
   width: 100%;
   height: 80px;
+  cursor: pointer;
 }
 .frameChild7,
 .frameChild8,
@@ -259,7 +260,6 @@
 }
 .frameChild8 {
   background-color: var(--color-goldenrod);
-  cursor: pointer;
   z-index: 2;
 }
 .icon1,

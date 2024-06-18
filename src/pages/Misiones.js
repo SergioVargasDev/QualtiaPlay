@@ -7,15 +7,7 @@ import Medio from "../components/Medio";
 
 const Misiones = () => {
   const navigate = useNavigate();
-
-  const onPortalInteractivoTextClick = useCallback(() => {
-    navigate("/games");
-  }, [navigate]);
-
-  const onImage38Click = useCallback(() => {
-    // Please sync "Usuario" to the project
-  }, []);
-
+  
   const onRectangleClick = useCallback(() => {
     navigate("/chatbot");
   }, [navigate]);

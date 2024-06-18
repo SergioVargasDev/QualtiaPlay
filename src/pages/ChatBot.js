@@ -5,28 +5,10 @@ import Left from "../components/Left";
 import styles from "./ChatBot.module.css";
 
 const ChatBot = () => {
-  const navigate = useNavigate();
-
-  const onScreenshot20240303At304Click = useCallback(() => {
-    window.open("https://qualtia.com.mx/");
-  }, []);
-
-  const onPortalInteractivoTextClick = useCallback(() => {
-    navigate("/games");
-  }, [navigate]);
-
-  const onImage38Click = useCallback(() => {
-    // Please sync "Usuario" to the project
-  }, []);
 
   return (
     <div className={styles.chatbot}>
-      <NavBar
-        screenshot20240303At304MarginRight="unset"
-        onScreenshot20240303At304Click={onScreenshot20240303At304Click}
-        onPortalInteractivoTextClick={onPortalInteractivoTextClick}
-        onImage38Click={onImage38Click}
-      />
+      <NavBar/>
       <main className={styles.leftParent}>
         <Left />
         <section className={styles.frameWrapper}>
