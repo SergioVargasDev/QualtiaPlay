@@ -4,12 +4,12 @@ const FrameComponent = () => {
   return (
     <div className={styles.scanCodeArea}>
       <div className={styles.redeemCode}>
-        <div className={styles.canjeaCodigo}>Canjea Codigo</div>
+        <div className={styles.canjeaCodigo}>Reedem code</div>
       </div>
       <div className={styles.useMessage}>
         <input
           className={styles.inputField}
-          placeholder="Inserte el Codigo para canjear"
+          placeholder="Insert the code to redeem"
           type="text"
         />
         <div className={styles.canjeArea}>
@@ -17,7 +17,7 @@ const FrameComponent = () => {
             <div className={styles.frameChild} />
             <div className={styles.frameItem} />
           </div>
-          <div className={styles.canjear}>Canjear!</div>
+          <div className={styles.canjear}>Redeem!</div>
         </div>
       </div>
     </div>
