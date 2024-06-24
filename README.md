@@ -100,6 +100,14 @@ Qualtia Play serves as a pioneering example for other companies facing similar c
   <img width="425" height="240" src="images/qualibot.jpg">
 </p>
 
+##
+
+## Team 
+
+<p align="center">
+  <img width="425" height="240" src="images/team.jpg">
+</p>
+
 
 ## Collaborators
 
