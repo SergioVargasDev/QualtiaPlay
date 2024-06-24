@@ -13,8 +13,7 @@
 ## Key Features
 
 * **QR Code Integration:** Each Qualtia product contains a QR code that, when scanned, directs customers to the Qualtia Play web page.
-
-* **Gamified Experience:** The platform offers three engaging games - Puzzle, Flappy Cart, and Roulette. Each game provides opportunities for customers to win rewards.
+***  **Gamified Experience:** The platform offers three engaging games - Puzzle, Flappy Cart, and Roulette. Each game provides opportunities for customers to win rewards.
 * **Puzzle:** Solve puzzles to earn tokens and discounts.
   
 * **Personalized Learning:** Utilizing OpenAI, StudySphere adapts to each student's learning behavior, providing customized feedback and suggestions to enhance their learning experience.
