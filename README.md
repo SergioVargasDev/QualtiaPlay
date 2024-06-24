@@ -85,13 +85,13 @@ Qualtia Play serves as a pioneering example for other companies facing similar c
 ## Missions
 
 <p align="center">
-  <img width="425" height="240" src="images/missions.jpg">
+  <img width="425" height="260" src="images/missions.jpg">
 </p>
 
 ## Shop
 
 <p align="center">
-  <img width="425" height="240" src="images/shop.jpg">
+  <img width="425" height="260" src="images/shop.jpg">
 </p>
 
 ## Qualibot
