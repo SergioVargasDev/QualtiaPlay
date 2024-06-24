@@ -42,9 +42,6 @@
 ### Database:
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
-### Hosting
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-
 ### AI Integration:
 
 ![Open AI](https://img.shields.io/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
@@ -56,15 +53,16 @@
 
 ## Contribution
 
-### To WBAN Solution:
+### For Qualtia:
 
-**StudySphere** was specifically designed to address **WBAN Solution's** need for an innovative educational platform that enhances student engagement and learning outcomes. Traditional educational methods often struggle to captivate students, resulting in decreased motivation and participation. StudySphere tackles this issue head-on by incorporating gamified elements and interactive avatars, transforming the learning process into an engaging and dynamic experience. The adaptive AI ensures that each student receives personalized feedback, catering to their unique learning needs and helping to close knowledge gaps more effectively.
+**Qualtia Play** directly addresses the company's need to increase customer engagement and loyalty. The platform provides a fun and interactive way for customers to connect with Qualtia products beyond the initial purchase. The use of games and rewards not only incentivizes repeat purchases but also fosters a deeper emotional connection with the brand. The inclusion of Quali Bot enhances customer service, providing quick and efficient support to users, further improving their experience.
 
 
 
-### To Other Educational Institutions:
+### For Other Companies:
 
-For schools and other educational institutions, StudySphere offers a comprehensive solution to streamline both teaching and administrative processes. The platform simplifies class management, student enrollment, and progress tracking, allowing educators to focus more on teaching and less on administrative tasks. Real-time scoring and feedback features enable teachers to monitor student performance continuously, identify areas where students struggle, and adjust their teaching strategies accordingly. Additionally, the inclusion of the Astro Blast game provides a valuable tool for schools to support student well-being by offering a fun way to relieve stress, promoting a healthier and more balanced learning environment.
+Qualtia Play serves as a pioneering example for other companies facing similar challenges of customer attraction and retention. The gamified loyalty program can be adapted to various industries, especially those dealing with physical products. By integrating QR codes and digital rewards, companies can create engaging customer experiences that drive repeat business and brand loyalty.
+
 
 
  
