@@ -114,6 +114,7 @@ Qualtia Play serves as a pioneering example for other companies facing similar c
 * **@SergioVargasDev**
 * **@EmilioVidal**
 * **@mirelesDavid**
+* **@FernandoRent**
 
 
 
