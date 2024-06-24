@@ -1,6 +1,6 @@
 # StudySphere
 <p align="center">
-  <img width="460" height="300" src="images/team.jpg">
+  <img width="460" height="300" src="images/qualtiaplay.jpg">
 </p>
 
 
