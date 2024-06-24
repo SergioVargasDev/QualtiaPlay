@@ -55,7 +55,7 @@
 
 ### For Qualtia:
 
-**Qualtia Play** directly addresses the company's need to increase customer engagement and loyalty. The platform provides a fun and interactive way for customers to connect with Qualtia products beyond the initial purchase. The use of games and rewards not only incentivizes repeat purchases but also fosters a deeper emotional connection with the brand. The inclusion of Quali Bot enhances customer service, providing quick and efficient support to users, further improving their experience.
+**QualtiPlay** directly addresses the company's need to increase customer engagement and loyalty. The platform provides a fun and interactive way for customers to connect with Qualtia products beyond the initial purchase. The use of games and rewards not only incentivizes repeat purchases but also fosters a deeper emotional connection with the brand. The inclusion of Quali Bot enhances customer service, providing quick and efficient support to users, further improving their experience.
 
 
 
