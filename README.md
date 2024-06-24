@@ -6,7 +6,7 @@
 
 ## Purpose
 
-**Qualtia Play** was conceptualized and developed during the **uOttaHack 6 x i-Hack Mty 2024 hackathon** to address the challenge presented by **Qualtia**: attracting more clients and maintaining their loyalty. Recognizing that **Qualtia** sells refrigerated products to markets, our solution leverages gamification and a unique digital currency system to enhance customer engagement and retention.
+**QualtiaPlay** was conceptualized and developed during the **uOttaHack 6 x i-Hack Mty 2024 hackathon** to address the challenge presented by **Qualtia**: attracting more clients and maintaining their loyalty. Recognizing that **Qualtia** sells refrigerated products to markets, our solution leverages gamification and a unique digital currency system to enhance customer engagement and retention.
 
 
 
