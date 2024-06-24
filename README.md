@@ -13,14 +13,22 @@
 ## Key Features
 
 * **QR Code Integration:** Each Qualtia product contains a QR code that, when scanned, directs customers to the Qualtia Play web page.
-  * **Gamified Experience:** The platform offers three engaging games - Puzzle, Flappy Cart, and Roulette. Each game provides opportunities for customers to win rewards.
-* **Puzzle:** Solve puzzles to earn tokens and discounts.
-  
-* **Personalized Learning:** Utilizing OpenAI, StudySphere adapts to each student's learning behavior, providing customized feedback and suggestions to enhance their learning experience.
 
-* **Real-time Scoring and Feedback:** Quizzes and assignments are scored in real-time, allowing students to receive immediate feedback and track their progress instantly.
+* **Gamified Experience:** The platform offers three engaging games - Puzzle, Flappy Cart, and Roulette. Each game provides opportunities for customers to win rewards.
+  * **Puzzle:** Solve puzzles to earn tokens and discounts.
+  * **Flappy Cart:** Navigate through obstacles to collect coins.
+  * **Roulette:** Spin the wheel for a chance to win various prizes.
 
-* **Astro Blast Game:** To help students manage stress, StudySphere includes a game called Astro Blast, developed with Unity and C#. This game provides a fun and engaging way for students to unwind and take a break from their studies.
+* **Rewards System**: Customers can redeem tokens for discounts or specific products, enhancing their shopping experience.
+
+* **Mission System:** Daily missions provide additional opportunities to earn rewards, encouraging regular engagement.
+
+* **Quali Bot:** An intelligent bot designed to answer customer queries about the web page, Qualtia products, and more, ensuring a seamless user experience.
+
+
+
+
+
 
 ## Technology Stack
 
