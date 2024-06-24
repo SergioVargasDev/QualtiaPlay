@@ -1,6 +1,6 @@
 # StudySphere
 <p align="center">
-  <img width="460" height="300" src="images/logo.jpg">
+  <img width="460" height="300" src="images/equipo.jpg">
 </p>
 
 
@@ -69,87 +69,44 @@ Qualtia Play serves as a pioneering example for other companies facing similar c
 ## Login/Register
 <img src= "images/login.jpg" width = 412> <img src= "images/signup.jpg" width = 412>
 
-# Teacher's Perspective
 
-## Menu/Profile Information/Add Class
+## Menu
 
-<img src= "images/menu.jpg" width = 412> <img src= "images/profile.jpg" width = 412> 
+<img src= "images/menu.jpg" width = 412> <img src= "images/menu2.jpg" width = 412> 
 
-<p align="center">
-  <img width="425" height="240" src="images/addClass.jpg">
-</p>
-
-## Ongoing Quizzes
+## Profile Information
 
 <p align="center">
-  <img width="425" height="240" src="images/quizOngoing.jpg">
-</p>
-
-## Quizzes Results
-
-<img src= "images/quizResult.jpg" width = 412> <img src= "images/quizResult2.jpg" width = 412> 
-
-## Add Quiz
-
-<p align="center">
-  <img width="425" height="240" src="images/quizAdd.jpg">
-</p>
-
-## Add Student
-
-<p align="center">
-  <img width="425" height="240" src="images/quizAddStudent.jpg">
+  <img width="425" height="240" src="images/profile.jpg">
 </p>
 
 
-## Quiz Simulation
 
-<img src= "images/quizSimulation.jpg" width = 412> <img src= "images/quizSimulation2.jpg" width = 412> 
-
-# Student's Perspective
-
-## Menu/Profile Information
-
-<img src= "images/menuStudent.jpg" width = 412>  <img src= "images/profileStudent.jpg" width = 412> 
-
-## Ongoing Quizzes
+## Missions
 
 <p align="center">
-  <img width="425" height="240" src="images/ongoingQuizStudent.jpg">
+  <img width="425" height="240" src="images/missions.jpg">
 </p>
 
-## Past Quizzes
+## Shop
 
 <p align="center">
-  <img width="425" height="240" src="images/pastQuizStudent.jpg">
+  <img width="425" height="240" src="images/shop.jpg">
 </p>
 
-## Quiz Simulator
-
-<img src= "images/simulationsStudent.jpg" width = 412> <img src= "images/simulationsStudent3.jpg" width = 412> 
+## Qualibot
 
 <p align="center">
-  <img width="425" height="240" src="images/simulationsStudent2.jpg">
+  <img width="425" height="240" src="images/qualibot.jpg">
 </p>
 
-## Astro Blast
-
-<p align="center">
-  <img width="425" height="240" src="images/astro.jpg">
-</p>
-
-## Tutor AI
-
-<img src= "images/tutorAI.jpg" width = 412> <img src= "images/tutorAI2.jpg" width = 412> 
 
 ## Collaborators
 
-* **@ferp03**
-* **@SofiaSchneider-dev**
-* **@Alejandrocharles**
-* **@mirelesDavid**
-* **@mnoriega-mx**
 * **@SergioVargasDev**
+* **@EmilioVidal**
+* **@mirelesDavid**
+
 
 
 
