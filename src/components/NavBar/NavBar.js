@@ -1,7 +1,7 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
-import FrameComponent3 from "./FrameComponent3";
-import styles from "./NavBar.module.css";
+import NavBarComponent from "./NavBarComponent";
+import styles from "./style.module.css";
 
 const NavBar = () => {
     const navigate = useNavigate();
@@ -15,7 +15,7 @@ const NavBar = () => {
 
   return (
     <header className={styles.navbar}>
-      <FrameComponent3
+      <NavBarComponent
         onPortalInteractivoTextClick={onPortalInteractivoTextClick}
       />
       <img

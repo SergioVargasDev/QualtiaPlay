@@ -1,9 +1,9 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
-import NavBar from "../components/NavBar";
+import NavBar from "../components/NavBar/NavBar";
 import FrameComponent7 from "../components/FrameComponent7";
 import styles from "./Misiones.module.css";
-import Medio from "../components/Medio";
+import Middle from "../components/Middle/Middle";
 
 const Misiones = () => {
   const navigate = useNavigate();
@@ -24,7 +24,7 @@ const Misiones = () => {
     <div className={styles.misiones}>
       <section className={styles.navbarParent}>
         <NavBar/>
-        <Medio />
+        <Middle />
       </section>
       <FrameComponent7 />
     </div>
