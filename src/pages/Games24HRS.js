@@ -1,7 +1,6 @@
 import { useCallback } from "react";
-import NavBar from "../components/NavBar";
-import Medio from "../components/Medio";
-import FrameComponent2 from "../components/FrameComponent2";
+import NavBar from "../components/NavBar/NavBar";
+import Middle from "../components/Middle/Middle";
 import FrameComponent5 from "../components/FrameComponent5";
 import FrameComponent from "../components/FrameComponent";
 import ScreenshotHolder from "../components/ScreenshotHolder";
@@ -12,17 +11,17 @@ const Games24HRS = () => {
     <div className={styles.games24hrs}>
       <section className={styles.gameHRSContainer}>
       <NavBar />
-      <Medio />   
+      <Middle />   
       </section>
       <div className={styles.games24hrsChild} />
       <section className={styles.rectangleParent}>
         <div className={styles.frameChild} />
-        <FrameComponent2 rectangle30="/rectangle-301@2x.png" />
+        <ScreenshotHolder rectangle38="/rectangleBackground.svg" name="Puzzle" text="Use un tiket para ganar increibles premios" image="/puzzlePic.png"/>
         <div className={styles.frameParent}>
           <FrameComponent5 />
           <FrameComponent />
         </div>
-        <ScreenshotHolder rectangle38="/rectangle-381.svg" />
+        <ScreenshotHolder rectangle38="/rectangleBackground.svg" name="Flappy Cart" text="Use Un Tiket Jugar Y Poder Ganar Increibles Premios" image="/flappyBird.png"/>
       </section>
     </div>
   );

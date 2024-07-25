@@ -1,8 +1,8 @@
 import { useMemo } from "react";
 import { useCallback } from "react";
-import styles from "./FrameComponent3.module.css";
+import styles from "./styleComponent.module.css";
 
-const FrameComponent3 = ({ propMinWidth, onPortalInteractivoTextClick }) => {
+const NavBarComponent = ({ propMinWidth, onPortalInteractivoTextClick }) => {
   const avisosDePrivacidadStyle = useMemo(() => {
     return {
       minWidth: propMinWidth,
@@ -44,4 +44,4 @@ const FrameComponent3 = ({ propMinWidth, onPortalInteractivoTextClick }) => {
   );
 };
 
-export default FrameComponent3;
+export default NavBarComponent;

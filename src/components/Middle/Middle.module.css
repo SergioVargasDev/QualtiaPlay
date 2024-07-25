@@ -9,7 +9,7 @@
     gap: var(--gap-smi-5);
     z-index: 1;
 }
-.medioItem img{
+.middleItem img{
     width: 35px;
     height: 35px;
 }
@@ -352,7 +352,7 @@
   color: var(--color-gray-200);
   font-family: var(--font-outfit);
 }
-.medio {
+.middle {
   margin-right: -162px;
   width: 2316px;
   height: 677px;
@@ -370,14 +370,14 @@
   font-family: var(--font-gothic-a1);
 }
 @media screen and (max-width: 1300px) {
-  .medio {
+  .middle {
     padding-left: var(--padding-184xl);
     padding-right: var(--padding-184xl);
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 900px) {
-  .medio {
+  .middle {
     padding-left: var(--padding-82xl);
     padding-right: var(--padding-82xl);
     box-sizing: border-box;
@@ -401,7 +401,7 @@
     height: auto;
     min-height: 677;
   }
-  .medio {
+  .middle {
     height: auto;
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);

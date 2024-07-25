@@ -1,7 +1,6 @@
-import NavBar from "../components/NavBar";
-import Medio from "../components/Medio";
+import NavBar from "../components/NavBar/NavBar";
+import Middle from "../components/Middle/Middle";
 
-import FrameComponent2 from "../components/FrameComponent2";
 import FrameComponent1 from "../components/FrameComponent1";
 import FrameComponent from "../components/FrameComponent";
 import ScreenshotHolder from "../components/ScreenshotHolder";
@@ -12,17 +11,17 @@ const Games = () => {
     <div className={styles.games}>
       <section className={styles.gamesContainer}>
         <NavBar />
-        <Medio />
+        <Middle />
       </section>
       <div className={styles.gamesChild} />
       <section className={styles.ticketsArea}>
         <div className={styles.ticketsAreaChild} />
-        <FrameComponent2 rectangle30="/rectangle-30@2x.png" />
+        <ScreenshotHolder rectangle38="/rectangleBackground.svg" name="Puzzle" text="Use un tiket para ganar increibles premios" image="/puzzlePic.png"/>
         <div className={styles.rouletteButtonParent}>
           <FrameComponent1 />
-          <FrameComponent />
         </div>
-        <ScreenshotHolder rectangle38="/rectangle-38.svg" />
+        <ScreenshotHolder rectangle38="/rectangleBackground.svg" name="Flappy Cart" text="Use Un Tiket Jugar Y Poder Ganar Increibles Premios" image="/flappyBird.png"/>
+        <FrameComponent />
       </section>
     </div>
   );

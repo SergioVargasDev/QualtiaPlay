@@ -1,4 +1,4 @@
-import NavBar from "../components/NavBar";
+import NavBar from "../components/NavBar/NavBar";
 import FrameComponent6 from "../components/FrameComponent6";
 import styles from "./User.module.css";
 
