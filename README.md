@@ -33,23 +33,19 @@
 ## Technology Stack
 
  ### Front-end:
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+ React: Builds the interactive front-end for games, rewards, and user engagement.
 
 ### Back-end:
-![Node.js](https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express%20js-000000?style=for-the-badge&logo=express&logoColor=white)
+Node.js & Express.js: Powers server-side APIs for QR code scans, game logic, and token management.
 
 ### Database:
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+PostgreSQL: Stores user profiles, game data, rewards catalog, and interaction logs.
 
-### AI Integration:
-
-![Open AI](https://img.shields.io/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
+### AI Integration
+OpenAI: Implements Quali Bot for answering customer queries and enhancing user experience.
 
 ### Game Development:
-
-![Unity](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
+Unity & C#: Develops engaging games (Puzzle, Flappy Cart, Roulette) with seamless integration into the platform.
 
 ## Contribution
 
