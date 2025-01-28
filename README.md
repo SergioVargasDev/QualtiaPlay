@@ -7,7 +7,9 @@
 QualtiaPlay is a web platform developed during the uOttaHack 6 x i-Hack Mty 2024 Hackathon, winning 1st place overall out of 600+ participants. It features a gamified loyalty program with a unique digital currency, "tokens," allowing customers to redeem rewards and enhance engagement. 
 
 ## Purpose
-**QualtiaPlay** was conceptualized and developed during the **uOttaHack 6 x i-Hack Mty 2024 hackathon** to address the challenge presented by **Qualtia**: attracting more clients and maintaining their loyalty. Recognizing that **Qualtia** sells refrigerated products to markets, our solution leverages gamification and a unique digital currency system to enhance customer engagement and retention.
+The purpose of QualtiaPlay is to help Qualtia attract and retain customers by leveraging gamification and rewards, tailored for their refrigerated product market.
+
+
 
 
 
