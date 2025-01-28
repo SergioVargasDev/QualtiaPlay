@@ -34,6 +34,7 @@
 
  ### Front-end:
  https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/react.png
+ 
  React: Builds the interactive front-end for games, rewards, and user engagement.
 
 ### Back-end:
