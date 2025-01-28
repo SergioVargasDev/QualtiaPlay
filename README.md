@@ -1,7 +1,7 @@
 # QualtiaPlay
-<p align="center">
+<div align="center">
   <img width="480" height="300" src="images/qualtiaplay.jpg">
-</p>
+</div>
 
 
 ## Purpose
