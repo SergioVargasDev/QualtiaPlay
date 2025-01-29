@@ -1,4 +1,8 @@
 # QualtiaPlay
+
+<img width="425" height="300" src="images/qualtiaplay.jpg">  <img width="425" height="300" src="images/team.jpg">
+
+
 <div align="center">
   <img width="425" height="300" src="images/qualtiaplay.jpg">
 </div>
