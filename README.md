@@ -2,15 +2,6 @@
 
 <img width="425" height="300" src="images/qualtiaplay.jpg">  <img width="425" height="300" src="images/team.jpg">
 
-
-<div align="center">
-  <img width="425" height="300" src="images/qualtiaplay.jpg">
-</div>
-
-<p align="center">
-  <img width="425" height="300" src="images/team.jpg">
-</p>
-
 ## Overview: 
 QualtiaPlay is a web platform developed during the uOttaHack 6 x i-Hack Mty 2024 Hackathon, winning 1st place overall out of 600+ participants. It features a gamified loyalty program with a unique digital currency, "tokens," allowing customers to redeem rewards and enhance engagement. 
 
