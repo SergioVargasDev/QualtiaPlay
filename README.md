@@ -1,6 +1,6 @@
 # QualtiaPlay
 <div align="center">
-  <img width="480" height="300" src="images/qualtiaplay.jpg">
+  <img width="425" height="300" src="images/qualtiaplay.jpg">
 </div>
 
 <p align="center">
