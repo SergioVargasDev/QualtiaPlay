@@ -29,19 +29,19 @@ The purpose of QualtiaPlay is to help Qualtia attract and retain customers by le
 ## Technology Stack
 
  ### Front-end: 
- React: Builds the interactive front-end for games, rewards, and user engagement.
+ * React: Builds the interactive front-end for games, rewards, and user engagement.
 
 ### Back-end:
-Node.js & Express.js: Powers server-side APIs for QR code scans, game logic, and token management.
+* Node.js & Express.js: Powers server-side APIs for QR code scans, game logic, and token management.
 
 ### Database:
-PostgreSQL: Stores user profiles, game data, rewards catalog, and interaction logs.
+* PostgreSQL: Stores user profiles, game data, rewards catalog, and interaction logs.
 
 ### AI Integration
-OpenAI: Implements Quali Bot for answering customer queries and enhancing user experience.
+* OpenAI: Implements Quali Bot for answering customer queries and enhancing user experience.
 
 ### Game Development:
-Unity & C#: Develops engaging games (Puzzle, Flappy Cart, Roulette) with seamless integration into the platform.
+* Unity & C#: Develops engaging games (Puzzle, Flappy Cart, Roulette) with seamless integration into the platform.
 
 ## Contribution
 
