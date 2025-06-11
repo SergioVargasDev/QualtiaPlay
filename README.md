@@ -54,42 +54,6 @@ The purpose of QualtiaPlay is to help Qualtia attract and retain customers by le
 Qualtia Play serves as a pioneering example for other companies facing similar challenges of customer attraction and retention. The gamified loyalty program can be adapted to various industries, especially those dealing with physical products. By integrating QR codes and digital rewards, companies can create engaging customer experiences that drive repeat business and brand loyalty.
 
 
-
- 
-## Login/Register
-<img src= "images/login.jpg" width = 412> <img src= "images/signup.jpg" width = 412>
-
-
-## Menu
-
-<img src= "images/menu.jpg" width = 412> <img src= "images/menu2.jpg" width = 412> 
-
-
-
-## Missions
-
-<p align="center">
-  <img width="425" height="260" src="images/missions.jpg">
-</p>
-
-## Shop
-
-<p align="center">
-  <img width="425" height="260" src="images/shop.jpg">
-</p>
-
-## Qualibot
-
-<p align="center">
-  <img width="425" height="260" src="images/qualibot.jpg">
-</p>
-
-## Profile Information
-
-<p align="center">
-  <img width="425" height="240" src="images/profile.jpg">
-</p>
-
 ## Team
 <img width="400" height="300" src="images/qualtiaplay.jpg">  <img width="400" height="300" src="images/team.jpg">
 
