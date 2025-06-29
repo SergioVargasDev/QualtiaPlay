@@ -25,9 +25,6 @@ QualtiaPlay is a customer loyalty platform developed during the uOttaHack 6 x i-
 ### AI Integration
 - **Gemini LLM** – Fine-tuned language model powering customer support chatbot with specialized reward logic knowledge.
 
-### Integration
-- **RESTful APIs** – Seamless communication between frontend and backend services.
-
 ## Installation
 
 ### Prerequisites
