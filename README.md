@@ -1,62 +1,151 @@
-# QualtiaPlay
+QualtiaPlay
+QualtiaPlay is a customer loyalty platform developed during the uOttaHack 6 x i-Hack Mty 2025 Hackathon, winning 1st place overall out of 600+ participants. It features a digital token rewards system that transforms customer engagement through interactive experiences and real-time redemption capabilities. The platform combines React-based frontend with a modular Node.js backend and fine-tuned AI chatbot, achieving a projected 27% boost in customer loyalty through advanced engagement analytics.
+Features
 
-## Overview: 
-QualtiaPlay is a web platform developed during the uOttaHack 6 x i-Hack Mty 2024 Hackathon, winning 1st place overall out of 600+ participants. It features a gamified loyalty program with a unique digital currency, "tokens," allowing customers to redeem rewards and enhance engagement. 
+Digital Token Rewards System: Real-time token earning and redemption for discounts, products, and exclusive offers.
+QR Code Integration: Seamless product-to-platform connection through embedded QR codes on Qualtia products.
+Interactive Platform: Engaging user experiences designed to maximize customer retention and brand loyalty.
+Mission-Based Engagement: Daily and weekly challenges providing additional reward opportunities.
+Quali Bot: Fine-tuned Gemini LLM chatbot answering customer queries with context-aware responses.
+Analytics Dashboard: Advanced engagement tracking and behavior analytics for customer loyalty insights.
 
-## Purpose
-The purpose of QualtiaPlay is to help Qualtia attract and retain customers by leveraging gamification and rewards, tailored for their refrigerated product market.
+Tech Stack
+Frontend
+
+React.js – Interactive user interface with component-based architecture for rewards management and customer dashboard.
+
+Backend
+
+Node.js & Express.js – Modular server architecture handling QR processing, token logic, and reward management APIs.
+
+Database
+
+MySQL – Relational database storing user profiles, transaction history, and engagement analytics.
+
+AI Integration
+
+Gemini LLM – Fine-tuned language model powering customer support chatbot with specialized reward logic knowledge.
+
+Integration
+
+RESTful APIs – Seamless communication between frontend and backend services.
+
+Installation
+Prerequisites
+
+Node.js 16.0+ - Required for backend services and React development
+MySQL 8.0+ - For database management and analytics storage
+React 18.0+ - Frontend framework for interactive user interface
+
+Quick Start
+
+Clone the repository
+bashgit clone https://github.com/your-org/qualtiaplay.git
+cd qualtiaplay
+
+Backend Setup
+bashcd backend
+npm install
+
+# Configure environment variables
+cp .env.example .env
+# Add your database credentials and Gemini API key
+
+# Start the server
+npm start
+
+Frontend Setup
+bashcd frontend
+npm install
+npm run dev
+
+Database Configuration
+sqlCREATE DATABASE qualtiaplay;
+-- Run migration scripts
+npm run migrate
+
+Access the platform
+
+Open your web browser and navigate to: http://localhost:3000
+The React interface will load with rewards dashboard and customer portal
 
 
 
+Platform Configuration
+The platform can be customized through admin interface:
 
+Token Rates: Adjust earning rates per activity and engagement type
+Reward Catalog: Configure available products and discount tiers
+Mission Settings: Set daily/weekly challenge parameters and rewards
+Engagement Parameters: Modify platform interactions for optimal customer retention
 
-## Key Features
+File Structure
+qualtiaplay/
+├── frontend/
+│   ├── src/
+│   │   ├── components/     # React components for rewards and UI
+│   │   ├── pages/          # Main platform pages
+│   │   └── utils/          # Helper functions and API calls
+├── backend/
+│   ├── routes/             # Express.js API routes
+│   ├── models/             # Database models and schemas
+│   ├── controllers/        # Business logic controllers
+│   └── middleware/         # Authentication and validation
+├── database/
+│   ├── migrations/         # Database schema migrations
+│   └── seeds/              # Initial data setup
+└── README.md               # This file
+Running Different Components
+1. Development Mode
+bash# Start backend server
+cd backend && npm run dev
 
-* **QR Code Integration:** Each Qualtia product contains a QR code that, when scanned, directs customers to the Qualtia Play web page.
+# Start frontend (in new terminal)
+cd frontend && npm run dev
+2. Production Build
+bash# Build frontend for production
+cd frontend && npm run build
 
-* **Gamified Experience:** The platform offers three engaging games - Puzzle, Flappy Cart, and Roulette. Each game provides opportunities for customers to win rewards.
-  * **Puzzle:** Solve puzzles to earn tokens and discounts.
-  * **Flappy Cart:** Navigate through obstacles to collect coins.
-  * **Roulette:** Spin the wheel for a chance to win various prizes.
+# Start production server
+cd backend && npm start
+3. Database Operations
+bash# Run migrations
+npm run migrate
 
-* **Rewards System**: Customers can redeem tokens for discounts or specific products, enhancing their shopping experience.
+# Seed initial data
+npm run seed
 
-* **Mission System:** Daily missions provide additional opportunities to earn rewards, encouraging regular engagement.
+# Reset database (development only)
+npm run db:reset
+Platform Controls
+Once the platform is running:
 
-* **Quali Bot:** An intelligent bot designed to answer customer queries about the web page, Qualtia products, and more, ensuring a seamless user experience.
+User Registration: QR code scan leads to automatic account creation
+Platform Access: Customer dashboard and rewards portal available from main interface
+Token Management: Real-time token balance and transaction history
+Reward Redemption: Instant processing of token-to-reward conversions
+Mission Tracking: Progress monitoring for daily/weekly challenges
+Quali Bot: 24/7 customer support through chat interface
 
+Business Integration
+For deployment with Qualtia products:
 
-## Technology Stack
+QR Code Generation: Batch creation of unique QR codes for product integration
+Inventory Sync: Real-time connection with Qualtia's product catalog
+Analytics Integration: Customer behavior data export for business intelligence
+Reward Fulfillment: Integration with Qualtia's distribution and discount systems
 
- ### Front-end: 
- * React: Builds the interactive front-end for games, rewards, and user engagement.
+Troubleshooting
+Common Issues:
 
-### Back-end:
-* Node.js & Express.js: Powers server-side APIs for QR code scans, game logic, and token management.
+Port 3000 already in use: Change the port in package.json or kill existing processes
+Database connection failed: Verify MySQL credentials and service status
+Gemini API errors: Check API key validity and rate limits
+Platform not loading: Clear browser cache and check JavaScript console
 
-### Database:
-* PostgreSQL: Stores user profiles, game data, rewards catalog, and interaction logs.
+Performance Optimization:
 
-### AI Integration
-* OpenAI: Implements Quali Bot for answering customer queries and enhancing user experience.
-
-### Game Development:
-* Unity & C#: Develops engaging games (Puzzle, Flappy Cart, Roulette) with seamless integration into the platform.
-
-## Contribution
-
-### For Qualtia
-**QualtiPlay** directly addresses the company's need to increase customer engagement and loyalty. The platform provides a fun and interactive way for customers to connect with Qualtia products beyond the initial purchase. The use of games and rewards not only incentivizes repeat purchases but also fosters a deeper emotional connection with the brand. The inclusion of Quali Bot enhances customer service, providing quick and efficient support to users, further improving their experience.
-
-
-
-### For Other Companies
-Qualtia Play serves as a pioneering example for other companies facing similar challenges of customer attraction and retention. The gamified loyalty program can be adapted to various industries, especially those dealing with physical products. By integrating QR codes and digital rewards, companies can create engaging customer experiences that drive repeat business and brand loyalty.
-
-
-
-
-
-
-
-
+Implement Redis caching for frequent database queries
+Optimize platform assets and loading times
+Use CDN for static asset delivery
+Monitor API response times and database query performance
