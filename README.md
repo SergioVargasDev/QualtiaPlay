@@ -85,19 +85,16 @@ The platform can be customized through admin interface:
 
 ```
 qualtiaplay/
-├── frontend/
+├── client/
 │   ├── src/
 │   │   ├── components/     # React components for rewards and UI
 │   │   ├── pages/          # Main platform pages
 │   │   └── utils/          # Helper functions and API calls
-├── backend/
+├── server/
 │   ├── routes/             # Express.js API routes
 │   ├── models/             # Database models and schemas
 │   ├── controllers/        # Business logic controllers
 │   └── middleware/         # Authentication and validation
-├── database/
-│   ├── migrations/         # Database schema migrations
-│   └── seeds/              # Initial data setup
 └── README.md               # This file
 ```
 
