@@ -102,20 +102,20 @@ qualtiaplay/
 
 #### 1. Development Mode
 ```bash
-# Start backend server
-cd backend && npm run dev
+# Start server
+cd server && npm run dev
 
-# Start frontend (in new terminal)
+# Start client (in new terminal)
 cd frontend && npm run dev
 ```
 
 #### 2. Production Build
 ```bash
-# Build frontend for production
-cd frontend && npm run build
+# Build client for production
+cd client && npm run build
 
 # Start production server
-cd backend && npm start
+cd server && npm start
 ```
 
 #### 3. Database Operations
@@ -159,9 +159,3 @@ For deployment with Qualtia products:
 - **Gemini API errors**: Check API key validity and rate limits
 - **Platform not loading**: Clear browser cache and check JavaScript console
 
-**Performance Optimization:**
-
-- Implement Redis caching for frequent database queries
-- Optimize platform assets and loading times
-- Use CDN for static asset delivery
-- Monitor API response times and database query performance
